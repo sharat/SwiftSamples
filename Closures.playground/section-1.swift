@@ -1,4 +1,5 @@
-// Playground - noun: a place where people can play
+// Closures - Demonstrates Closures
+// @sarat
 
 import Cocoa
 
@@ -6,18 +7,36 @@ import Cocoa
 var cities = ["New Delhi", "Trivandrum", "Kochi", "Bangalore"]
 
 // Sort with delegates
+cities.sort({ (a:String, b:String) -> Bool in
+    return a < b
+})
+
+// Sort with delegates
 cities.sort({ (a, b) -> Bool in
-    a < b
+    return a < b
 })
 
 
-// Sort with delegates
-cities.sort { (a, b) -> Bool in
+// Implicit return types
+cities.sort { (a, b) in
+    return a < b
+}
+
+// Implicit return types
+cities.sort { $0 < $1 }
+
+// Implicit return types
+cities.sort { a, b in
+    return a < b
+}
+
+cities.sort { a, b in
     a < b
 }
 
-cities.sort { a, b in a < b }
-println(cities)
+cities.sort { a, b in
+    a < b
+}
 
 cities.sort { $0 < $1 }
 println(cities)
