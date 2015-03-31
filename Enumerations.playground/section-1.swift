@@ -26,3 +26,23 @@ case .South:
 default:
     println("Nowhere to go")
 }
+
+// Associated Values
+enum Barcode {
+    case UPCA(Int, Int, Int, Int)
+    case QRCode(String)
+}
+
+var ​productBarcode = ​Barcode.UPCA(8, 85909, 51226, 3)
+​productBarcode = .QRCode("ABCDEFGHIJ")
+
+
+let numberSystem = 8, manufacturer = 85909, product = 51226, check = 3
+
+switch ​productBarcode {
+    case let .UPCA(numberSystem, manufacturer, product, check)
+        println("UPCA Detected")
+    case let .QRCode("ABCDEFGHIJ")
+        println("QRCode detected")
+
+}
