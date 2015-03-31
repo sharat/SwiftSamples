@@ -13,6 +13,10 @@
 		671A84B51ABE64B30079BE12 /* Arrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Arrays.playground; sourceTree = "<group>"; };
 		673B72371AB0364E003CFAD7 /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; };
 		673B72381AB040BE003CFAD7 /* PatternMatching.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PatternMatching.playground; sourceTree = "<group>"; };
+		674727FA1ACB0B92008A0837 /* Memoization.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Memoization.playground; sourceTree = "<group>"; };
+		674727FB1ACB0FFF008A0837 /* Extensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Extensions.playground; sourceTree = "<group>"; };
+		674727FC1ACB1C42008A0837 /* Protocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocols.playground; sourceTree = "<group>"; };
+		674727FD1ACB2044008A0837 /* AdvancedOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AdvancedOperators.playground; sourceTree = "<group>"; };
 		677602D31ABE669B00D8B247 /* AnyObject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AnyObject.playground; sourceTree = "<group>"; };
 		67C1FC211AC07FFA00489937 /* Strings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Strings.playground; sourceTree = "<group>"; };
 		67F51A291AB9E5300049B9E0 /* Enumerations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enumerations.playground; sourceTree = "<group>"; };
@@ -22,6 +26,10 @@
 		673B72301AB0363D003CFAD7 = {
 			isa = PBXGroup;
 			children = (
+				674727FB1ACB0FFF008A0837 /* Extensions.playground */,
+				674727FC1ACB1C42008A0837 /* Protocols.playground */,
+				674727FD1ACB2044008A0837 /* AdvancedOperators.playground */,
+				674727FA1ACB0B92008A0837 /* Memoization.playground */,
 				67C1FC211AC07FFA00489937 /* Strings.playground */,
 				677602D31ABE669B00D8B247 /* AnyObject.playground */,
 				671A84B51ABE64B30079BE12 /* Arrays.playground */,
