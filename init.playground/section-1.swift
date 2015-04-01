@@ -34,3 +34,38 @@ import Cocoa
  - Convenience init can't call super.init
  - 
 */
+
+
+class Food {
+    
+    var name: String
+    
+    // Designated Initializer
+    init(name: String) {
+        self.name = name
+    }
+    
+    // Convenience Initializer
+    convenience init() {
+        self.init(name: "Unnamed")
+    }
+}
+
+
+class Vehicle {
+    let numberOfWheels = 0
+}
+
+class Bicycle : Vehicle {
+    override init() {
+        super.init()
+        numberOfWheels = 2
+    }
+}
+
+class Car : Vehicle {
+    override init() {
+        super.init()
+        numberOfWheels = 4
+    }
+}
