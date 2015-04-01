@@ -69,3 +69,4 @@ class Car : Vehicle {
         numberOfWheels = 4
     }
 }
+
